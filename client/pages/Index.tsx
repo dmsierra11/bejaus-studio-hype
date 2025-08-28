@@ -108,7 +108,7 @@ export default function Index() {
       </section>
 
       {/* Our Journey */}
-      <section className="py-24 bg-beige">
+      <section id="journey" className="py-24 bg-beige">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-forest mb-12">
             Nuestro Viaje Juntos
