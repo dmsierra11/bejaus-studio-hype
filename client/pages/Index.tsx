@@ -92,14 +92,18 @@ export default function Index() {
             El espacio que hemos soñado juntos desde Bejaus Café finalmente toma
             forma. Ven a conocerlo antes que nadie.
           </p>
-          <Button
-            size="lg"
-            className="bg-terracota hover:bg-terracota/90 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
-            onClick={() => scrollToSection("event")}
-          >
-            ¡Quiero estar ahí!
-            <ChevronRight className="ml-2 h-5 w-5" />
-          </Button>
+          <div className="flex flex-col items-center space-y-4">
+            <p className="text-white/80 text-lg">Descubre toda la historia</p>
+            <button
+              onClick={() => scrollToSection("journey")}
+              className="group flex flex-col items-center space-y-2 text-white/80 hover:text-white transition-all duration-300"
+            >
+              <div className="w-12 h-12 border-2 border-white/40 rounded-full flex items-center justify-center group-hover:border-white/80 transition-all duration-300 group-hover:scale-110">
+                <ChevronRight className="h-6 w-6 rotate-90" />
+              </div>
+              <span className="text-sm font-light">Continúa leyendo</span>
+            </button>
+          </div>
         </div>
       </section>
 
