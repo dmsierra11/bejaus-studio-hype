@@ -707,40 +707,8 @@ export default function Index() {
               <p className="text-forest/70 mb-6">
                 El siguiente capítulo de nuestra historia
               </p>
-              <div className="flex space-x-4">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-forest text-forest hover:bg-forest hover:text-white"
-                >
-                  <Mail className="h-4 w-4 mr-2" />
-                  Email
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-forest text-forest hover:bg-forest hover:text-white"
-                >
-                  <Linkedin className="h-4 w-4 mr-2" />
-                  Instagram
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-forest text-forest hover:bg-forest hover:text-white"
-                >
-                  <Phone className="h-4 w-4 mr-2" />
-                  WhatsApp
-                </Button>
-              </div>
             </div>
             <div className="text-center md:text-right">
-              <div className="inline-block bg-forest text-white p-8 rounded-2xl">
-                <Heart className="h-12 w-12 mx-auto mb-4" />
-                <p className="font-semibold">
-                  ¿Vienes a conocer tu nuevo hogar creativo?
-                </p>
-              </div>
             </div>
           </div>
           <div className="border-t border-forest/20 pt-8 mt-12 text-center">
