@@ -68,85 +68,14 @@ export default function Index() {
           <p className="text-xl md:text-2xl mb-12 text-white/90 font-light max-w-3xl mx-auto">
             El espacio que hemos soñado juntos desde Bejaus Café finalmente toma forma. Ven a conocerlo antes que nadie.
           </p>
-          <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-            <DialogTrigger asChild>
-              <Button
-                size="lg"
-                className="bg-terracota hover:bg-terracota/90 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
-              >
-                ¡Quiero estar ahí!
-                <ChevronRight className="ml-2 h-5 w-5" />
-              </Button>
-            </DialogTrigger>
-            <DialogContent className="sm:max-w-md">
-              <DialogHeader>
-                <DialogTitle className="text-forest">¡Genial! Cuenta conmigo 🎉</DialogTitle>
-              </DialogHeader>
-              {!isSubmitted ? (
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div>
-                    <Label htmlFor="name" className="text-forest">Nombre *</Label>
-                    <Input
-                      id="name"
-                      type="text"
-                      value={formData.name}
-                      onChange={(e) => handleInputChange('name', e.target.value)}
-                      required
-                      className="border-forest/20 focus:border-terracota"
-                      placeholder="Tu nombre"
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="email" className="text-forest">Email *</Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={(e) => handleInputChange('email', e.target.value)}
-                      required
-                      className="border-forest/20 focus:border-terracota"
-                      placeholder="tu@email.com"
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="message" className="text-forest">Mensaje (opcional)</Label>
-                    <Textarea
-                      id="message"
-                      value={formData.message}
-                      onChange={(e) => handleInputChange('message', e.target.value)}
-                      className="border-forest/20 focus:border-terracota"
-                      placeholder="¿Alguna idea o sugerencia para el evento?"
-                      rows={3}
-                    />
-                  </div>
-                  <Button
-                    type="submit"
-                    disabled={isSubmitting || !formData.name || !formData.email}
-                    className="w-full bg-terracota hover:bg-terracota/90 text-white"
-                  >
-                    {isSubmitting ? 'Enviando...' : '¡Cuenta conmigo!'}
-                  </Button>
-                </form>
-              ) : (
-                <div className="text-center py-6">
-                  <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Heart className="h-8 w-8 text-terracota" />
-                  </div>
-                  <h3 className="text-lg font-semibold text-forest mb-2">¡Perfecto!</h3>
-                  <p className="text-forest/70 mb-4">Te contactaremos pronto con todos los detalles del evento.</p>
-                  <Button
-                    onClick={() => {
-                      setIsModalOpen(false);
-                      setIsSubmitted(false);
-                    }}
-                    className="bg-forest hover:bg-forest/90 text-white"
-                  >
-                    Cerrar
-                  </Button>
-                </div>
-              )}
-            </DialogContent>
-          </Dialog>
+          <Button
+            size="lg"
+            className="bg-terracota hover:bg-terracota/90 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
+            onClick={() => scrollToSection('event')}
+          >
+            ¡Quiero estar ahí!
+            <ChevronRight className="ml-2 h-5 w-5" />
+          </Button>
         </div>
       </section>
 
