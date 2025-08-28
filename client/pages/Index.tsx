@@ -257,7 +257,7 @@ export default function Index() {
                   <Target className="h-8 w-8 text-terracota" />
                 </div>
                 <h3 className="font-bold text-forest mb-3">Mezcla creativa</h3>
-                <p className="text-forest/70">M��sica, arte y tecnología en un mismo espacio</p>
+                <p className="text-forest/70">Música, arte y tecnología en un mismo espacio</p>
               </CardContent>
             </Card>
             <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
@@ -286,13 +286,15 @@ export default function Index() {
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="aspect-square bg-gradient-to-br from-beige to-terracota/20 rounded-2xl p-8 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-32 h-32 bg-forest rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Zap className="h-16 w-16 text-white" />
-                </div>
-                <p className="text-forest font-semibold text-lg">Tour Exclusivo</p>
-                <p className="text-forest/70">Antes de la reforma</p>
+            <div className="aspect-square rounded-2xl overflow-hidden bg-white shadow-lg relative">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Ffbbab1b059dd49cba66beb6d7ce95166?format=webp&width=800"
+                alt="Espacio Bejaus Studio antes de la reforma - Estado actual"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-3">
+                <p className="text-forest font-semibold text-sm">Tour Exclusivo</p>
+                <p className="text-xs text-forest/70">Antes de la reforma</p>
               </div>
             </div>
             <div>
