@@ -16,17 +16,17 @@ export default function Index() {
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Donde arte, tecnología y comunidad se encuentran
+            ¡Bejaus Studio está llegando!
           </h1>
           <p className="text-xl md:text-2xl mb-12 text-white/90 font-light max-w-3xl mx-auto">
-            Bejaus Studio es el primer espacio creativo híbrido de Barcelona diseñado para impulsar a artistas emergentes
+            El espacio que hemos soñado juntos desde Bejaus Café finalmente toma forma. Ven a conocerlo antes que nadie.
           </p>
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="bg-terracota hover:bg-terracota/90 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
-            onClick={() => scrollToSection('investment')}
+            onClick={() => scrollToSection('event')}
           >
-            Quiero invertir
+            ¡Quiero estar ahí!
             <ChevronRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
