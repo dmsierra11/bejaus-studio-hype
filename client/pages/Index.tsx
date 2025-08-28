@@ -432,7 +432,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl font-bold text-forest mb-4">Bejaus Studio</h3>
-              <p className="text-forest/70 mb-6">Impulsando el talento creativo</p>
+              <p className="text-forest/70 mb-6">El siguiente capítulo de nuestra historia</p>
               <div className="flex space-x-4">
                 <Button variant="outline" size="sm" className="border-forest text-forest hover:bg-forest hover:text-white">
                   <Mail className="h-4 w-4 mr-2" />
@@ -440,7 +440,7 @@ export default function Index() {
                 </Button>
                 <Button variant="outline" size="sm" className="border-forest text-forest hover:bg-forest hover:text-white">
                   <Linkedin className="h-4 w-4 mr-2" />
-                  LinkedIn
+                  Instagram
                 </Button>
                 <Button variant="outline" size="sm" className="border-forest text-forest hover:bg-forest hover:text-white">
                   <Phone className="h-4 w-4 mr-2" />
@@ -450,13 +450,13 @@ export default function Index() {
             </div>
             <div className="text-center md:text-right">
               <div className="inline-block bg-forest text-white p-8 rounded-2xl">
-                <Zap className="h-12 w-12 mx-auto mb-4" />
-                <p className="font-semibold">¿Listo para formar parte del futuro creativo?</p>
+                <Heart className="h-12 w-12 mx-auto mb-4" />
+                <p className="font-semibold">¿Vienes a conocer tu nuevo hogar creativo?</p>
               </div>
             </div>
           </div>
           <div className="border-t border-forest/20 pt-8 mt-12 text-center">
-            <p className="text-forest/60">© 2024 Bejaus Studio. Impulsando el talento creativo en Barcelona.</p>
+            <p className="text-forest/60">© 2024 Bejaus Studio. De la familia Bejaus Café, para la comunidad creativa de Barcelona.</p>
           </div>
         </div>
       </footer>
