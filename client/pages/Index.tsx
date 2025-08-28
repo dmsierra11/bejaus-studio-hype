@@ -32,46 +32,46 @@ export default function Index() {
         </div>
       </section>
 
-      {/* The Problem */}
+      {/* Our Journey */}
       <section className="py-24 bg-beige">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-forest mb-12">El Problema</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-forest mb-12">Nuestro Viaje Juntos</h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-xl md:text-2xl text-forest/80 leading-relaxed font-light">
-              Los creadores independientes carecen de espacios profesionales accesibles que integren arte, tecnología y comunidad
+              Desde Bejaus Café hemos construido algo especial. Ahora es momento de llevarlo al siguiente nivel.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
               <div className="text-center">
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Target className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-semibold text-forest mb-2">Falta de acceso</h3>
-                <p className="text-forest/70">Espacios profesionales inaccesibles</p>
+                <h3 className="font-semibold text-forest mb-2">Comunidad</h3>
+                <p className="text-forest/70">Hemos creado conexiones reales</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Zap className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-semibold text-forest mb-2">Fragmentación</h3>
-                <p className="text-forest/70">Herramientas y recursos dispersos</p>
+                <h3 className="font-semibold text-forest mb-2">Creatividad</h3>
+                <p className="text-forest/70">Hemos visto florecer el talento</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-semibold text-forest mb-2">Aislamiento</h3>
-                <p className="text-forest/70">Falta de comunidad creativa</p>
+                <h3 className="font-semibold text-forest mb-2">Crecimiento</h3>
+                <p className="text-forest/70">Es hora del siguiente paso</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* The Solution */}
+      {/* The Studio */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-forest mb-6">La Solución – Bejaus Studio</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-forest mb-6">Bejaus Studio se hace realidad</h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -89,29 +89,29 @@ export default function Index() {
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-terracota rounded-full mt-3"></div>
                 <div>
-                  <h3 className="font-semibold text-forest mb-2">Packs flexibles por horas</h3>
-                  <p className="text-forest/70">Acceso adaptado a cada presupuesto</p>
+                  <h3 className="font-semibold text-forest mb-2">El espacio que diseñamos juntos</h3>
+                  <p className="text-forest/70">Basado en vuestras ideas y necesidades</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-terracota rounded-full mt-3"></div>
                 <div>
-                  <h3 className="font-semibold text-forest mb-2">Espacios híbridos: música + arte + tecnología</h3>
-                  <p className="text-forest/70">Convergencia de disciplinas creativas</p>
+                  <h3 className="font-semibold text-forest mb-2">Equipamiento profesional</h3>
+                  <p className="text-forest/70">DJ booth, grabación, espacios colaborativos</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-terracota rounded-full mt-3"></div>
                 <div>
-                  <h3 className="font-semibold text-forest mb-2">Comunidad real validada desde Bejaus Café</h3>
-                  <p className="text-forest/70">Base sólida de creativos establecida</p>
+                  <h3 className="font-semibold text-forest mb-2">Nuestra comunidad en el centro</h3>
+                  <p className="text-forest/70">Un hogar para los creativos de Bejaus</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-terracota rounded-full mt-3"></div>
                 <div>
-                  <h3 className="font-semibold text-forest mb-2">Escalable a nuevas ciudades y programas</h3>
-                  <p className="text-forest/70">Modelo replicable y expansible</p>
+                  <h3 className="font-semibold text-forest mb-2">Eventos exclusivos para vosotros</h3>
+                  <p className="text-forest/70">Acceso prioritario a talleres y colaboraciones</p>
                 </div>
               </div>
             </div>
@@ -395,35 +395,35 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Investment Opportunity */}
-      <section id="investment" className="py-24 bg-forest text-white">
+      {/* Event Invitation */}
+      <section id="event" className="py-24 bg-forest text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8">Oportunidad de Inversión</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">¡Ven a conocer el espacio!</h2>
           <p className="text-xl md:text-2xl mb-12 text-white/90 font-light leading-relaxed">
-            Bejaus Studio combina ingresos B2C y B2B, con alta rentabilidad por m² y comunidad ya validada
+            Te invitamos a una presentación exclusiva del futuro Bejaus Studio. Tú has sido parte del viaje, ahora sé parte del gran momento.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white/10 p-6 rounded-2xl">
-              <TrendingUp className="h-12 w-12 text-terracota mx-auto mb-4" />
-              <h3 className="font-bold mb-2">Alta rentabilidad</h3>
-              <p className="text-white/80">ROI optimizado por metro cuadrado</p>
+              <Target className="h-12 w-12 text-terracota mx-auto mb-4" />
+              <h3 className="font-bold mb-2">Preview exclusivo</h3>
+              <p className="text-white/80">Sé el primero en ver el espacio</p>
             </div>
             <div className="bg-white/10 p-6 rounded-2xl">
               <Users className="h-12 w-12 text-terracota mx-auto mb-4" />
-              <h3 className="font-bold mb-2">Comunidad validada</h3>
-              <p className="text-white/80">Base sólida desde Bejaus Café</p>
+              <h3 className="font-bold mb-2">Solo para ti</h3>
+              <p className="text-white/80">Evento privado para la familia Bejaus</p>
             </div>
             <div className="bg-white/10 p-6 rounded-2xl">
-              <Target className="h-12 w-12 text-terracota mx-auto mb-4" />
-              <h3 className="font-bold mb-2">Modelo escalable</h3>
-              <p className="text-white/80">Replicable en múltiples ciudades</p>
+              <Zap className="h-12 w-12 text-terracota mx-auto mb-4" />
+              <h3 className="font-bold mb-2">Participa activamente</h3>
+              <p className="text-white/80">Tus ideas siguen siendo importantes</p>
             </div>
           </div>
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="bg-terracota hover:bg-terracota/90 text-white px-12 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
           >
-            Solicitar reunión
+            ¡Cuenta conmigo!
             <ChevronRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
