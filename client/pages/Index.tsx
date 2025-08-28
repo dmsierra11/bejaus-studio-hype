@@ -166,40 +166,40 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Target Audience */}
+      {/* What to Expect */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="aspect-square bg-gradient-to-br from-beige to-terracota/20 rounded-2xl p-8 flex items-center justify-center">
               <div className="text-center">
                 <div className="w-32 h-32 bg-forest rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Users className="h-16 w-16 text-white" />
+                  <Zap className="h-16 w-16 text-white" />
                 </div>
-                <p className="text-forest font-semibold text-lg">Jóvenes Creadores</p>
-                <p className="text-forest/70">20–38 años</p>
+                <p className="text-forest font-semibold text-lg">Tour Exclusivo</p>
+                <p className="text-forest/70">Antes de la reforma</p>
               </div>
             </div>
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-forest mb-8">Público Objetivo</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-forest mb-8">¿Qué podrás ver?</h2>
               <p className="text-xl text-forest/80 leading-relaxed mb-8">
-                DJs, diseñadores, freelancers y emprendedores culturales que buscan visibilidad, herramientas y comunidad
+                Te mostraremos el espacio en bruto y te contaremos todos los planes. También queremos escuchar tus ideas.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-beige p-4 rounded-lg">
-                  <h4 className="font-semibold text-forest">DJs & Productores</h4>
-                  <p className="text-sm text-forest/70">Música electrónica y beats</p>
+                  <h4 className="font-semibold text-forest">El espacio completo</h4>
+                  <p className="text-sm text-forest/70">Tour por todas las áreas planificadas</p>
                 </div>
                 <div className="bg-beige p-4 rounded-lg">
-                  <h4 className="font-semibold text-forest">Diseñadores</h4>
-                  <p className="text-sm text-forest/70">Gráfico, UX/UI, motion</p>
+                  <h4 className="font-semibold text-forest">Maquetas y planos</h4>
+                  <p className="text-sm text-forest/70">Cómo quedará el resultado final</p>
                 </div>
                 <div className="bg-beige p-4 rounded-lg">
-                  <h4 className="font-semibold text-forest">Freelancers</h4>
-                  <p className="text-sm text-forest/70">Creativos independientes</p>
+                  <h4 className="font-semibold text-forest">Equipamiento</h4>
+                  <p className="text-sm text-forest/70">Herramientas que tendremos</p>
                 </div>
                 <div className="bg-beige p-4 rounded-lg">
-                  <h4 className="font-semibold text-forest">Emprendedores</h4>
-                  <p className="text-sm text-forest/70">Startups culturales</p>
+                  <h4 className="font-semibold text-forest">Sesión de feedback</h4>
+                  <p className="text-sm text-forest/70">Tus opiniones cuentan</p>
                 </div>
               </div>
             </div>
@@ -207,11 +207,11 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Business Model */}
+      {/* What We'll Offer */}
       <section className="py-24 bg-beige">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-forest mb-6">Modelo de Negocio</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-forest mb-6">¿Qué encontrarás en Bejaus Studio?</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
@@ -219,89 +219,86 @@ export default function Index() {
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Calendar className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-bold text-forest">Packs de horas</h3>
+                <h3 className="font-bold text-forest">Horarios flexibles</h3>
               </div>
-              <p className="text-forest/70">Ingresos recurrentes base</p>
+              <p className="text-forest/70">Cuando tú puedas crear</p>
             </div>
             <div className="text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg mb-4">
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-bold text-forest">Talleres y hackathons</h3>
+                <h3 className="font-bold text-forest">Eventos exclusivos</h3>
               </div>
-              <p className="text-forest/70">Eventos formativos</p>
+              <p className="text-forest/70">Talleres solo para nuestra gente</p>
             </div>
             <div className="text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg mb-4">
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Zap className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-bold text-forest">Servicios a artistas</h3>
+                <h3 className="font-bold text-forest">Equipamiento pro</h3>
               </div>
-              <p className="text-forest/70">Grabación y merchandising</p>
+              <p className="text-forest/70">Lo mejor para tus proyectos</p>
             </div>
             <div className="text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg mb-4">
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-bold text-forest">Alianzas con marcas</h3>
+                <h3 className="font-bold text-forest">Nuestra red</h3>
               </div>
-              <p className="text-forest/70">Partnerships estratégicas</p>
+              <p className="text-forest/70">Colaboraciones y oportunidades</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Financial Projections */}
+      {/* Timeline */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-forest mb-6">Proyecciones Financieras</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-forest mb-6">¿Cuándo estará listo?</h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="bg-beige p-8 rounded-2xl">
-              <div className="space-y-4">
-                <div className="flex justify-between items-center">
-                  <span className="text-forest">Año 1</span>
-                  <div className="flex-1 mx-4 bg-white h-8 rounded-full overflow-hidden">
-                    <div className="h-full bg-terracota w-3/4 rounded-full flex items-center justify-end pr-2">
-                      <span className="text-white text-sm font-semibold">Equilibrio mes 9</span>
-                    </div>
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4">
+                  <div className="w-4 h-4 bg-terracota rounded-full"></div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-forest">Ahora - Evento presentación</h3>
+                    <p className="text-forest/70">Te mostramos el espacio y recogemos ideas</p>
                   </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-forest">Año 2</span>
-                  <div className="flex-1 mx-4 bg-white h-8 rounded-full overflow-hidden">
-                    <div className="h-full bg-forest w-4/5 rounded-full flex items-center justify-end pr-2">
-                      <span className="text-white text-sm font-semibold">+15.500 €</span>
-                    </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-4 h-4 bg-forest rounded-full"></div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-forest">Próximos meses - Reforma</h3>
+                    <p className="text-forest/70">Acondicionamiento y equipamiento</p>
                   </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-forest">Año 3</span>
-                  <div className="flex-1 mx-4 bg-white h-8 rounded-full overflow-hidden">
-                    <div className="h-full bg-terracota w-full rounded-full flex items-center justify-end pr-2">
-                      <span className="text-white text-sm font-semibold">+50.500 €</span>
-                    </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-4 h-4 bg-terracota rounded-full"></div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-forest">Este año - Apertura</h3>
+                    <p className="text-forest/70">Tú serás el primero en entrar</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="space-y-8">
               <div className="text-center bg-beige p-6 rounded-2xl">
-                <h3 className="text-2xl font-bold text-forest">Punto de equilibrio</h3>
-                <p className="text-4xl font-bold text-terracota">Mes 9</p>
+                <h3 className="text-2xl font-bold text-forest">Tu lugar reservado</h3>
+                <p className="text-lg text-terracota font-semibold">Comunidad fundadora</p>
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4">
                 <div className="text-center bg-forest p-6 rounded-2xl text-white">
-                  <h4 className="font-semibold mb-2">Año 2</h4>
-                  <p className="text-2xl font-bold">+15.500 €</p>
+                  <h4 className="font-semibold mb-2">Acceso prioritario</h4>
+                  <p className="text-white/80">Reservas y horarios preferenciales</p>
                 </div>
                 <div className="text-center bg-terracota p-6 rounded-2xl text-white">
-                  <h4 className="font-semibold mb-2">Año 3</h4>
-                  <p className="text-2xl font-bold">+50.500 €</p>
+                  <h4 className="font-semibold mb-2">Precios especiales</h4>
+                  <p className="text-white/80">Condiciones exclusivas para ti</p>
                 </div>
               </div>
             </div>
