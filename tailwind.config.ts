@@ -14,6 +14,10 @@ export default {
     },
     extend: {
       colors: {
+        // Bejaus Studio Brand Colors
+        forest: "#2C3E2F",
+        beige: "#F5F0E7",
+        terracota: "#D96C4E",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
