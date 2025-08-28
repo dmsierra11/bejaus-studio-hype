@@ -457,7 +457,6 @@ export default function Index() {
         </div>
       </section>
 
-
       {/* Roadmap */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
@@ -659,8 +658,7 @@ export default function Index() {
                 El siguiente capítulo de nuestra historia
               </p>
             </div>
-            <div className="text-center md:text-right">
-            </div>
+            <div className="text-center md:text-right"></div>
           </div>
           <div className="border-t border-forest/20 pt-8 mt-12 text-center">
             <p className="text-forest/60">
