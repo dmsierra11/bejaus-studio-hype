@@ -199,10 +199,6 @@ export default function Index() {
                   alt="Planos del futuro Bejaus Studio - Layout del espacio creativo"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-3">
-                  <p className="text-forest font-semibold text-sm">Planos reales del espacio</p>
-                  <p className="text-xs text-forest/70">Medidas y distribución definitiva</p>
-                </div>
               </div>
             </div>
             <div className="space-y-6">
@@ -261,7 +257,7 @@ export default function Index() {
                   <Target className="h-8 w-8 text-terracota" />
                 </div>
                 <h3 className="font-bold text-forest mb-3">Mezcla creativa</h3>
-                <p className="text-forest/70">Música, arte y tecnología en un mismo espacio</p>
+                <p className="text-forest/70">M��sica, arte y tecnología en un mismo espacio</p>
               </CardContent>
             </Card>
             <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
