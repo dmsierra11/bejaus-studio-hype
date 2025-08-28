@@ -140,8 +140,8 @@ export default function Index() {
                 <div className="w-16 h-16 bg-terracota/20 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Target className="h-8 w-8 text-terracota" />
                 </div>
-                <h3 className="font-bold text-forest mb-3">Hibridación</h3>
-                <p className="text-forest/70">Convergencia única de arte y tecnología</p>
+                <h3 className="font-bold text-forest mb-3">Mezcla creativa</h3>
+                <p className="text-forest/70">Música, arte y tecnología en un mismo espacio</p>
               </CardContent>
             </Card>
             <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
