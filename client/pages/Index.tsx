@@ -230,7 +230,7 @@ export default function Index() {
                 </div>
                 <h3 className="font-bold text-forest">Eventos exclusivos</h3>
               </div>
-              <p className="text-forest/70">Talleres solo para nuestra gente</p>
+              <p className="text-forest/70">Bejaus Sessions y talleres solo para nuestra gente</p>
             </div>
             <div className="text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg mb-4">
