@@ -193,13 +193,15 @@ export default function Index() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <div className="aspect-video bg-gradient-to-br from-beige to-terracota/20 rounded-2xl p-8 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-24 h-24 bg-forest rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Zap className="h-12 w-12 text-white" />
-                  </div>
-                  <p className="text-forest font-semibold">Studio Mockup</p>
-                  <p className="text-sm text-forest/70">DJ booth, grabación, workshops</p>
+              <div className="aspect-video rounded-2xl overflow-hidden bg-white shadow-lg">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Fe1cdbc0bad5b4049ac5c1242aebb8e7a?format=webp&width=800"
+                  alt="Planos del futuro Bejaus Studio - Layout del espacio creativo"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-3">
+                  <p className="text-forest font-semibold text-sm">Planos reales del espacio</p>
+                  <p className="text-xs text-forest/70">Medidas y distribución definitiva</p>
                 </div>
               </div>
             </div>
