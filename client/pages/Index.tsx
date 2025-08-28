@@ -457,55 +457,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-24 bg-beige">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-forest mb-6">
-              Equipo Promotor
-            </h2>
-            <p className="text-xl text-forest/80">
-              Equipo multidisciplinar detrás del éxito de Bejaus Café
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-32 h-32 bg-forest rounded-full mx-auto mb-6 flex items-center justify-center">
-                <Users className="h-16 w-16 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-forest mb-2">Daniel</h3>
-              <p className="text-terracota font-semibold mb-2">
-                Tech & Community
-              </p>
-              <p className="text-forest/70">
-                Especialista en tecnología y construcción de comunidades
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 bg-forest rounded-full mx-auto mb-6 flex items-center justify-center">
-                <Zap className="h-16 w-16 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-forest mb-2">Rafa</h3>
-              <p className="text-terracota font-semibold mb-2">
-                Producción musical & hostelería creativa
-              </p>
-              <p className="text-forest/70">
-                Experto en audio y experiencias gastronómicas
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 bg-forest rounded-full mx-auto mb-6 flex items-center justify-center">
-                <Heart className="h-16 w-16 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-forest mb-2">Rita</h3>
-              <p className="text-terracota font-semibold mb-2">Diseño & Arte</p>
-              <p className="text-forest/70">
-                Directora creativa y diseñadora visual
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Roadmap */}
       <section className="py-24 bg-white">
